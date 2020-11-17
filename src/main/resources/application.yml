@@ -8,6 +8,9 @@ spring:
     properties.hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
     hibernate.ddl-auto: validate
     open-in-view: false
+  liquibase:
+    change-log: db/liquibase.xml
+    enabled: true
 
 cloud:
   aws:
