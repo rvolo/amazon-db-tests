@@ -1,0 +1,15 @@
+spring:
+  profiles: default
+  datasource:
+    url: jdbc:mysql://database-1.cacec1zyjyww.us-east-2.rds.amazonaws.com:3306/testdb
+    username: admin
+    password: gReEMtJmVyswTqQ6bnBu
+  jpa:
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate.ddl-auto: validate
+    open-in-view: false
+
+cloud:
+  aws:
+    region:
+      static: us-east-2
