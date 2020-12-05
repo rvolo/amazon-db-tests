@@ -10,6 +10,7 @@
             <column name="test_field1" type="VARCHAR(255)"/>
             <column name="test_field2" type="VARCHAR(255)"/>
         </createTable>
+
         <addPrimaryKey columnNames="id" constraintName="PRIMARY" tableName="test_entity"/>
         <addAutoIncrement tableName="test_entity" columnName="id" columnDataType="bigint"/>
 
